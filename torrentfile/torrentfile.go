@@ -1,8 +1,10 @@
 package torrentfile
 
 import (
-	"crypto/rand"
+	"github.com/cristianossd/fit-torrent/peers"
 	"github.com/jackpal/bencode-go"
+
+	"crypto/rand"
 	"io"
 	"net/http"
 	"net/url"

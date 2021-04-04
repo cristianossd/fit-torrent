@@ -1,9 +1,10 @@
 package torrentfile
 
 import (
+	"github.com/jackpal/bencode-go"
+
 	"bytes"
 	"fmt"
-	"github.com/jackpal/bencode-go"
 )
 
 type bencodeInfo struct {
