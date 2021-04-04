@@ -13,6 +13,11 @@ import (
 	"time"
 )
 
+type bencodeTrackerResp struct {
+	Interval int    `bencode:"interval"`
+	Peers    string `bencode:"peers"`
+}
+
 type TorretFile struct {
 	Announce    string
 	InfoHash    [20]byte
